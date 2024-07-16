@@ -169,6 +169,15 @@ section {
     margin: auto 0;
 }
 
+.profile-img {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .section_text {
     align-self: center;
     text-align: center;
