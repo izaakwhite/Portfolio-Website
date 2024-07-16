@@ -8,6 +8,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url('assets/layered-peaks-haikei.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 html {
