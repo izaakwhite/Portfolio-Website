@@ -193,6 +193,9 @@ section {
 .section_text-p{
     text-align: center;
 }
+.hello{
+  font-size: x-large;
+}
 .section_text-p2{
    font-size: 1.75rem;
    margin-bottom: 1rem;
