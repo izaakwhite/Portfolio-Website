@@ -82,6 +82,16 @@
     .section_text-p2{
         font-size: 1.25rem;
     }
+    .section_text-p{
+        font-size: 1rem;
+    }
+    .adj{
+        padding-top: 8vh;
+        padding-bottom: 0;
+    }
+    .hello{
+        font-size: 1.5rem;
+    }
     .tile {
         font-size: 2rem;
     }
