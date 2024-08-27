@@ -435,3 +435,9 @@ footer {
 footer p{
     text-align: center;
 }
+
+/*  ARROW RULE */
+
+.top-arrow {
+  right: 4rem;
+}
