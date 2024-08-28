@@ -483,3 +483,8 @@ article {
   text-overflow: ellipsis;
 }
 
+/* LONG BTN FOR SINGLE BUTTON PROJECTS */
+
+.long-btn {
+  width: 200%;
+}
