@@ -441,3 +441,45 @@ footer p{
 .top-arrow {
   right: 4rem;
 }
+
+/* H3 Targeting For Text Align */
+
+/*#experience .article-container h3 {
+  text-align: left;
+}*/
+
+/* Container to manage grid layout */
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Split into 2 columns when wide */
+  gap: 2.5rem; 
+  justify-items: center; 
+  align-items: center; 
+}
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 250px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem; 
+}
+
+.header-text {
+  text-align: left;
+  font-size: 1.4rem;
+  color: #1d1b1b;
+  flex-grow: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
