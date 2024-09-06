@@ -79,6 +79,10 @@
         height: 46vw;
         justify-content: center;
     }
+    .profile-img {
+        width: 50vw;
+        height: 50vw;
+      }
     .section_text-p2{
         font-size: 1.25rem;
     }
