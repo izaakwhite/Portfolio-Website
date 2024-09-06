@@ -6,6 +6,9 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    body{
+        background: fixed;
+    }
 }
 
 @media screen and (max-width: 1200px) {
