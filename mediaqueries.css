@@ -6,10 +6,13 @@
     .about-containers{
         flex-wrap: wrap;
     }
-    body{
-        background: fixed;
-    }
 }
+
+@supports (-webkit-touch-callout: none) {
+    body {
+      background-attachment: scroll; /* Fixes issue in iOS Safari */
+    }
+  }
 
 @media screen and (max-width: 1200px) {
     #desktop-nav{
