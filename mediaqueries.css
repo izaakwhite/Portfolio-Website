@@ -8,9 +8,9 @@
     }
 }
 
-@supports (-webkit-touch-callout: none) {
+@media screen and (max-device-width: 1200px) {
     body {
-      background-attachment: scroll; /* Fixes issue in iOS Safari */
+      background-attachment: scroll; /* Overrides fixed background for mobile */
     }
   }
 
