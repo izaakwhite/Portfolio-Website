@@ -505,3 +505,7 @@ article {
 .long-btn {
   width: 200%;
 }
+
+.btm-1rem {
+  bottom: 1rem;
+}
